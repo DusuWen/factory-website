@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/factory-website/static/css/main.45c002f1.chunk.css",
+    "main.js": "/factory-website/static/js/main.c1fcf92b.chunk.js",
+    "main.js.map": "/factory-website/static/js/main.c1fcf92b.chunk.js.map",
+    "runtime-main.js": "/factory-website/static/js/runtime-main.f4d4b285.js",
+    "runtime-main.js.map": "/factory-website/static/js/runtime-main.f4d4b285.js.map",
+    "static/css/2.b8e2f343.chunk.css": "/factory-website/static/css/2.b8e2f343.chunk.css",
+    "static/js/2.65bcf9b9.chunk.js": "/factory-website/static/js/2.65bcf9b9.chunk.js",
+    "static/js/2.65bcf9b9.chunk.js.map": "/factory-website/static/js/2.65bcf9b9.chunk.js.map",
+    "index.html": "/factory-website/index.html",
+    "precache-manifest.899346f2c88eb75fa777e04d7e58ecf3.js": "/factory-website/precache-manifest.899346f2c88eb75fa777e04d7e58ecf3.js",
+    "service-worker.js": "/factory-website/service-worker.js",
+    "static/css/2.b8e2f343.chunk.css.map": "/factory-website/static/css/2.b8e2f343.chunk.css.map",
+    "static/css/main.45c002f1.chunk.css.map": "/factory-website/static/css/main.45c002f1.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4d4b285.js",
+    "static/css/2.b8e2f343.chunk.css",
+    "static/js/2.65bcf9b9.chunk.js",
+    "static/css/main.45c002f1.chunk.css",
+    "static/js/main.c1fcf92b.chunk.js"
+  ]
+}
