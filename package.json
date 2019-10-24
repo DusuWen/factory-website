@@ -1,17 +1,31 @@
 {
   "name": "factory-website",
   "version": "0.1.0",
+  "homepage": "https://dusuwen.github.io/factory-website",
   "private": true,
   "dependencies": {
+    "antd": "^3.24.2",
+    "customize-cra": "^0.8.0",
+    "enquire-js": "^0.2.1",
+    "gh-pages": "^2.1.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "rc-banner-anim": "^2.4.2",
+    "rc-queue-anim": "^1.8.2",
+    "rc-scroll-anim": "^2.6.2",
+    "rc-tween-one": "^2.6.5",
     "react": "^16.11.0",
+    "react-app-rewired": "^2.1.4",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.12.2"
   }
 }
