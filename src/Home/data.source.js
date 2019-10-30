@@ -1,137 +1,56 @@
 import React from 'react';
-export const Nav00DataSource = {
-  wrapper: { className: 'header0 home-page-wrapper' },
+export const Nav21DataSource = {
+  isScrollLink: true,
+  wrapper: { className: 'header2 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header0-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    className: 'header2-logo',
+    children:
+      'https://res.cloudinary.com/drlouie/image/upload/v1572163474/factory-test/%E6%9C%AA%E6%A0%87%E9%A2%98-2_azpege.png',
   },
-  Menu: {
-    className: 'header0-menu',
+  LinkMenu: {
+    className: 'header2-menu',
     children: [
       {
-        name: 'item0',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <>
-                  <p>公司介绍</p>
-                </>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-        subItem: [
-          {
-            name: 'sub~k24quegif6r',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub~k24quegi6ig',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
+        name: 'Banner0_1',
+        to: 'Banner0_1',
+        children: '首页',
+        className: 'menu-item',
       },
       {
-        name: 'item1',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <>
-                  <p>精选产品</p>
-                </>
-              ),
-              name: 'text',
-            },
-          ],
-        },
+        name: 'Feature4_0',
+        to: 'Feature4_0',
+        children: '公司介绍',
+        className: 'menu-item',
       },
       {
-        name: 'item2',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <>
-                  <p>厂房设备</p>
-                </>
-              ),
-              name: 'text',
-            },
-          ],
-        },
+        name: 'Content0_0',
+        to: 'Content0_0',
+        children: '精选产品',
+        className: 'menu-item',
       },
       {
-        name: 'item3',
-        className: 'header0-item',
-        children: {
-          href: '#',
-          children: [
-            {
-              children: (
-                <>
-                  <p>专业优势</p>
-                </>
-              ),
-              name: 'text',
-            },
-          ],
-        },
+        name: 'Content5_0',
+        to: 'Content5_0',
+        children: '厂房设备',
+        className: 'menu-item',
+      },
+      {
+        name: 'Content3_0',
+        to: 'Content3_0',
+        children: '专业优势',
+        className: 'menu-item',
+      },
+      {
+        name: 'Teams1_0',
+        to: 'Teams1_0',
+        children: '联系我们',
+        className: 'menu-item',
       },
     ],
   },
-  mobileMenu: { className: 'header0-mobile-menu' },
+  mobileMenu: { className: 'header2-mobile-menu' },
+  menuLink: { children: [] },
 };
 export const Banner01DataSource = {
   wrapper: { className: 'banner0 k24fclz6j2m-editor_css' },
@@ -149,16 +68,18 @@ export const Banner01DataSource = {
     children: (
       <>
         <p>
-          <br />
+          以顾客要求为基础，以专业可靠为中心，以诚信履约为法则，以持续改进为先导
         </p>
       </>
     ),
   },
   button: {
-    className: 'banner0-button',
+    className: 'banner0-button k26zqyai7ws-editor_css',
     children: (
       <>
-        <p>了解更多</p>
+        <p>
+          <br />
+        </p>
       </>
     ),
     type: 'default',
@@ -187,7 +108,9 @@ export const Feature40DataSource = {
         className: 'title-content',
         children: (
           <>
-            <p>位于辽宁省海城市，交通便利，通讯畅通</p>
+            <p>
+              海城良润建材科技有限公司位于辽宁省海城市，以丰富的白云石矿产资源而闻名，交通便利，地理位置优越。自有矿山手续齐全，矿山储量极大，白云石品质优良。
+            </p>
           </>
         ),
       },
@@ -206,7 +129,7 @@ export const Feature40DataSource = {
         name: 'block0',
         img: {
           children:
-            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+            'https://res.cloudinary.com/drlouie/image/upload/v1572162932/factory-test/%E7%85%A4%E7%82%AD%E5%BC%80%E9%87%87_gmuf31.svg',
           className: 'content6-icon',
         },
         title: {
@@ -221,7 +144,7 @@ export const Feature40DataSource = {
           className: 'content6-content',
           children: (
             <>
-              <p>丰富的矿产资源和现代化先进的开采设备</p>
+              <p>自有矿山手续齐全，矿山储量极大，白云石品质优良</p>
             </>
           ),
         },
@@ -231,13 +154,13 @@ export const Feature40DataSource = {
         img: {
           className: 'content6-icon',
           children:
-            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+            'https://res.cloudinary.com/drlouie/image/upload/v1572162888/factory-test/%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86_p89hwb.svg',
         },
         title: {
           className: 'content6-title',
           children: (
             <>
-              <p>生产</p>
+              <p>生产和加工</p>
             </>
           ),
         },
@@ -245,7 +168,7 @@ export const Feature40DataSource = {
           className: 'content6-content',
           children: (
             <>
-              <p>高效标准的工程化流水线</p>
+              <p>进口生产工艺技术从原材料到产品保障品质质量</p>
             </>
           ),
         },
@@ -255,13 +178,13 @@ export const Feature40DataSource = {
         img: {
           className: 'content6-icon',
           children:
-            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+            'https://res.cloudinary.com/drlouie/image/upload/v1572162824/factory-test/%E5%B7%A5%E5%8E%82_ak8cpk.svg',
         },
         title: {
           className: 'content6-title',
           children: (
             <>
-              <p>加工</p>
+              <p>设备先进</p>
             </>
           ),
         },
@@ -269,7 +192,7 @@ export const Feature40DataSource = {
           className: 'content6-content',
           children: (
             <>
-              <p>绿色/安全/无污染的加工方式</p>
+              <p>进口制砂设备，进口筛分机械</p>
             </>
           ),
         },
@@ -500,7 +423,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children:
-              'https://res.cloudinary.com/drlouie/image/upload/v1571906075/factory-test/WechatIMG16_dlk2l5.jpg',
+              'https://mmbiz.qpic.cn/mmbiz_png/tX2ibGA82YNchLKpYPVXgmasZAWVJ0vZEiayMicF4wKuGibWdB5LophYjadvsBv4FvyBibIy1YX8aicSSrUxniapLGorA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1',
           },
           content: { children: 'Ant Design' },
         },
@@ -561,13 +484,21 @@ export const Content30DataSource = {
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
+        children: (
+          <>
+            <p>专业优势</p>
+          </>
+        ),
         className: 'title-h1',
       },
       {
         name: 'content',
         className: 'title-content',
-        children: '基于阿里云强大的基础资源',
+        children: (
+          <>
+            <p>质量检测设备，进口生产工艺技术</p>
+          </>
+        ),
       },
     ],
   },
@@ -583,14 +514,24 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
+              'https://res.cloudinary.com/drlouie/image/upload/v1572350582/factory-test/04_ttbcfr.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '企业资源管理' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>种类丰富</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+            children: (
+              <>
+                <p>提供汉白玉砂、天然彩砂、石英砂、雪花白等，年产量达十万吨</p>
+              </>
+            ),
           },
         },
       },
@@ -603,14 +544,24 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+              'https://res.cloudinary.com/drlouie/image/upload/v1572350583/factory-test/07_yxrrt5.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云安全' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>制砂设备</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '按金融企业安全要求打造的完整云上安全体系，全方位保障金融应用及数据安全。',
+            children: (
+              <>
+                <p>第三代制砂设备出料顺畅、运行可靠、高效节能，产量功效更高</p>
+              </>
+            ),
           },
         },
       },
@@ -623,14 +574,24 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+              'https://res.cloudinary.com/drlouie/image/upload/v1572350582/factory-test/06_dqampf.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '云监控' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>研磨设备</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '分布式云环境集中监控，统一资源及应用状态视图，智能分析及故障定位。',
+            children: (
+              <>
+                <p>选用进口设备保证成品率，品质更好</p>
+              </>
+            ),
           },
         },
       },
@@ -643,14 +604,26 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+              'https://res.cloudinary.com/drlouie/image/upload/v1572350582/factory-test/03_foh07g.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '移动' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>检测设备</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '一站式移动金融APP开发及全面监控；丰富可用组件，动态发布和故障热修复。',
+            children: (
+              <>
+                <p>
+                  完善齐全的检测设备保证成品品质符合相关标准，满足客户多种需求
+                </p>
+              </>
+            ),
           },
         },
       },
@@ -663,14 +636,24 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/UsUmoBRyLvkIQeO.png',
+              'https://res.cloudinary.com/drlouie/image/upload/v1572350582/factory-test/02_kvmnoy.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '分布式中间件' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>化工环保</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。',
+            children: (
+              <>
+                <p>在生产过程中时刻注意化学品使用，不对环境造成破坏和污染</p>
+              </>
+            ),
           },
         },
       },
@@ -683,21 +666,180 @@ export const Content30DataSource = {
           icon: {
             className: 'content3-icon',
             children:
-              'https://zos.alipayobjects.com/rmsportal/ipwaQLBLflRfUrg.png',
+              'https://res.cloudinary.com/drlouie/image/upload/v1572350582/factory-test/01_vqrk6p.png',
           },
           textWrapper: { className: 'content3-text' },
-          title: { className: 'content3-title', children: '大数据' },
+          title: {
+            className: 'content3-title',
+            children: (
+              <>
+                <p>安全防护</p>
+              </>
+            ),
+          },
           content: {
             className: 'content3-content',
-            children:
-              '一站式、全周期大数据协同工作平台，PB级数据处理、毫秒级数据分析工具。',
+            children: (
+              <>
+                <p>拥有完整的安全规范条例，时刻注意工厂与工人的安全保护</p>
+              </>
+            ),
           },
         },
       },
     ],
   },
 };
-export const Footer10DataSource = {
+export const Teams10DataSource = {
+  wrapper: { className: 'home-page-wrapper teams1-wrapper' },
+  page: { className: 'home-page teams1' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <>
+            <p>联系我们</p>
+          </>
+        ),
+      },
+    ],
+  },
+  block: {
+    className: 'block-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams1-image k2bt324qgi8-editor_css',
+              children:
+                'https://res.cloudinary.com/drlouie/image/upload/v1572272329/factory-test/%E7%94%B5%E8%AF%9D_xk0hf0.png',
+            },
+            {
+              name: 'title',
+              className: 'teams1-title',
+              children: (
+                <>
+                  <p>联系电话</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams1-job k2aied0zvc-editor_css',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams1-content',
+              children: (
+                <>
+                  <h2>
+                    0412-3351122<br />0412-3352002
+                  </h2>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams1-image k2bt3ovaq4-editor_css',
+              children:
+                'https://res.cloudinary.com/drlouie/image/upload/v1572272335/factory-test/%E9%82%AE%E4%BB%B6_Email_%E9%82%AE%E7%AE%B1_phyxs2.png',
+            },
+            {
+              name: 'title',
+              className: 'teams1-title',
+              children: (
+                <>
+                  <p>企业邮箱</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams1-job k2aiejdv5c-editor_css',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams1-content',
+              children: (
+                <>
+                  <h2>hclrjc@163.com</h2>
+                  <p>
+                    <br />
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams1-image k2bt3tdde1-editor_css',
+              children:
+                'https://res.cloudinary.com/drlouie/image/upload/v1572272344/factory-test/%E6%89%8B%E6%9C%BA%E8%90%A5%E9%94%80_%E6%89%8B%E6%9C%BA%E8%B5%9A%E9%92%B1_%E6%89%8B%E6%9C%BA%E6%9F%A5%E8%B4%A6_j9kjue.png',
+            },
+            {
+              name: 'title',
+              className: 'teams1-title',
+              children: (
+                <>
+                  <p>手机号码</p>
+                </>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams1-job k2aieml1kzl-editor_css',
+              children: '公司+职位 信息暂缺',
+            },
+            {
+              name: 'content1',
+              className: 'teams1-content k2aih5ydoeo-editor_css',
+              children: (
+                <>
+                  <h2>18604207722</h2>
+                  <h2>13998015168</h2>
+                  <p>
+                    <br />
+                  </p>
+                </>
+              ),
+            },
+          ],
+        },
+      },
+    ],
+  },
+};
+export const Footer11DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
   OverPack: { className: 'footer1', playScale: 0.2 },
   block: {
@@ -711,11 +853,8 @@ export const Footer10DataSource = {
         className: 'block',
         title: {
           className: 'logo',
-          children: (
-            <>
-              <p>海城良润</p>
-            </>
-          ),
+          children:
+            'https://res.cloudinary.com/drlouie/image/upload/v1572163474/factory-test/%E6%9C%AA%E6%A0%87%E9%A2%98-2_azpege.png',
         },
         childWrapper: {
           className: 'slogan',
@@ -724,7 +863,9 @@ export const Footer10DataSource = {
               name: 'content0',
               children: (
                 <>
-                  <p>专业的彩砂/石英砂/钙粉矿产品企业</p>
+                  <p>
+                    Hai cheng LiangRun Construction Materials echnology Co.,Ltd.
+                  </p>
                 </>
               ),
             },
@@ -736,13 +877,7 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: 'block',
-        title: {
-          children: (
-            <>
-              <p>联系电话</p>
-            </>
-          ),
-        },
+        title: { children: '产品' },
         childWrapper: {
           children: [
             {
@@ -750,29 +885,72 @@ export const Footer10DataSource = {
               href: '#',
               children: (
                 <>
-                  <p>
-                    <br />
-                  </p>
+                  <p>汉白玉砂</p>
                 </>
               ),
             },
-            { name: 'link1', href: '#', children: 'API文档' },
-            { name: 'link2', href: '#', children: '快速入门' },
-            { name: 'link3', href: '#', children: '参考指南' },
+            {
+              name: 'link1',
+              href: '#',
+              children: (
+                <>
+                  <p>天然彩砂</p>
+                </>
+              ),
+            },
+            {
+              name: 'link2',
+              href: '#',
+              children: (
+                <>
+                  <p>石英砂</p>
+                </>
+              ),
+            },
+            {
+              name: 'link3',
+              href: '#',
+              children: (
+                <>
+                  <p>雪花白</p>
+                </>
+              ),
+            },
           ],
-          className: 'k24qrknzuvj-editor_css',
         },
       },
       {
         name: 'block2',
         xs: 24,
         md: 6,
-        className: 'block k24qrtqiz-editor_css',
-        title: { children: '关于' },
+        className: 'block',
+        title: {
+          children: (
+            <>
+              <p>优势</p>
+            </>
+          ),
+        },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '联系我们' },
+            {
+              href: '#',
+              name: 'link0',
+              children: (
+                <>
+                  <p>先进设备</p>
+                </>
+              ),
+            },
+            {
+              href: '#',
+              name: 'link1',
+              children: (
+                <>
+                  <p>进口工艺</p>
+                </>
+              ),
+            },
           ],
         },
       },
@@ -780,12 +958,52 @@ export const Footer10DataSource = {
         name: 'block3',
         xs: 24,
         md: 6,
-        className: 'block k24qs4yxnjn-editor_css',
-        title: { children: '资源' },
+        className: 'block',
+        title: {
+          children: (
+            <>
+              <p>理念</p>
+            </>
+          ),
+        },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
+            {
+              href: '#',
+              name: 'link0',
+              children: (
+                <>
+                  <p>以客户要求为基础</p>
+                </>
+              ),
+            },
+            {
+              href: '#',
+              name: 'link1',
+              children: (
+                <>
+                  <p>以专业可靠为中心</p>
+                </>
+              ),
+            },
+            {
+              name: 'content~k2aiz209ls',
+              className: '',
+              children: (
+                <>
+                  <p>以诚信履约为法则</p>
+                </>
+              ),
+            },
+            {
+              name: 'content~k2aiznf86q',
+              className: '',
+              children: (
+                <>
+                  <p>以持续改进为先导</p>
+                </>
+              ),
+            },
           ],
         },
       },
@@ -797,10 +1015,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <>
-        <span>
-          ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
-          Reserved
-        </span>
+        <span>©2019 by 良润建材&nbsp;All Rights Reserved</span>
       </>
     ),
   },

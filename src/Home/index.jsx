@@ -3,22 +3,24 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Nav0 from './Nav0';
+import Nav2 from './Nav2';
 import Banner0 from './Banner0';
 import Feature4 from './Feature4';
 import Content0 from './Content0';
 import Content5 from './Content5';
 import Content3 from './Content3';
+import Teams1 from './Teams1';
 import Footer1 from './Footer1';
 
 import {
-  Nav00DataSource,
+  Nav21DataSource,
   Banner01DataSource,
   Feature40DataSource,
   Content00DataSource,
   Content50DataSource,
   Content30DataSource,
-  Footer10DataSource,
+  Teams10DataSource,
+  Footer11DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -58,10 +60,10 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav0
-        id="Nav0_0"
-        key="Nav0_0"
-        dataSource={Nav00DataSource}
+      <Nav2
+        id="Nav2_1"
+        key="Nav2_1"
+        dataSource={Nav21DataSource}
         isMobile={this.state.isMobile}
       />,
       <Banner0
@@ -94,10 +96,16 @@ export default class Home extends React.Component {
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Teams1
+        id="Teams1_0"
+        key="Teams1_0"
+        dataSource={Teams10DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Footer1
-        id="Footer1_0"
-        key="Footer1_0"
-        dataSource={Footer10DataSource}
+        id="Footer1_1"
+        key="Footer1_1"
+        dataSource={Footer11DataSource}
         isMobile={this.state.isMobile}
       />,
     ];
