@@ -1015,7 +1015,7 @@ export const Footer11DataSource = {
     className: 'copyright',
     children: (
       <>
-        <span>©2019 by 良润建材&nbsp;All Rights Reserved</span>
+        <span>©2019 by 良润建材&nbsp;辽ICP备19018603号&nbsp;All Rights Reserved</span>
       </>
     ),
   },
